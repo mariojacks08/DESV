@@ -21,15 +21,15 @@ class user{
            } 
 
         elseif($login->type == 'A'){
-            header('Location: AdminIndex.php');
+            header('Location: cPanel/admin/index.php');
         }
 
         elseif($login->type == 'E'){
-            header('Location: EstudianteIndex.php');
+            header('Location: home.php');
         }
 
         elseif($login->type == 'P'){
-            header('Location: ProfesorIndex.php');
+            header('Location: cPanel/profesor/index.php');
         }
 
         else{
