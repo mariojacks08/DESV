@@ -1,8 +1,8 @@
 <?php
-DEFINE("DB_HOST","localhost");
-DEFINE("DB_USER","root");
-DEFINE("DB_PASS","");
-DEFINE("DB","users");
+DEFINE("DB_HOST","52.184.158.178");
+DEFINE("DB_USER","pbmc");
+DEFINE("DB_PASS","y[TkQ1K4Lb7qr4h!");
+DEFINE("DB","game");
 
 
 class Conexion{
