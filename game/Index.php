@@ -31,7 +31,7 @@ window.onload = function() {
 </head>
 <body>
 <header>
-  <img src="../IMG/logo.gif" alt="logo juego" id="logojuego">
+  <img src="../IMG/DesarrolloVTítulo.gif" alt="logo juego" id="logojuego">
 <nav class='container'>
   <div class='wrap'>
     <input type='checkbox' id='checking' style='display:none;'/>
