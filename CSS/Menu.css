@@ -104,16 +104,14 @@
     padding: 0.13rem;
     background-color: #fff;
   }
+  .wrap > #checking:checked ~ .blob:nth-child(6) {
+    margin-top: 360px;
+    margin-left: 10px;
+    background-color: #fff;
+  }
 
 
-  
- 
-  
 
-  
- 
-
-  
   .wrap > #checking:checked ~ .blob[for="checking"] > .bar:nth-child(1) {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);

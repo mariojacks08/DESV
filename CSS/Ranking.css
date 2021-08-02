@@ -1,0 +1,98 @@
+.rankContainer {
+    width: 292px;
+    margin: auto;
+    display: flex;
+}
+
+.Primero, .Segundo {
+    margin-left: 40px;
+}
+
+.Primero, .Segundo, .Tercero {
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 70px;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: yellow;
+    border-radius: 7px;
+}
+
+.Primero {
+    height: 200px;
+    background-color: #d5d500;
+}
+
+.Segundo {
+    margin-top: 100px;
+    height: 150px;
+    background-color: #9f9f9f;
+}
+
+.Tercero {
+    margin-top: 150px;
+    background-color: #d24400;
+}
+.Primero:hover, .Segundo:hover, .Tercero:hover {
+    width: 80px;
+}
+
+.Primero:hover {
+    height: 215px;
+    transition-duration: 800ms;
+}
+
+.Segundo:hover {
+    height: 165px;
+    transition-duration: 800ms;
+}
+
+.Tercero:hover {
+    height: 115px;
+    transition-duration: 800ms;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+h1:hover {
+    font-size: 60px;
+    transition-duration: 1s;
+}
+
+#copa {
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 110px;
+}
+
+#copa:hover {
+    width: 130px;
+    height: 140px;
+    transition-duration: 1s;
+}
+
+#celebration1 {
+    margin: 0px;
+    float: left;
+    transform: translate(10px, -220px);
+    width: 400px;
+    height: 300px;
+}
+
+#celebration2 {
+    margin: 0px;
+    float: right;
+    transform: translate(10px, -220px);
+    width: 400px;
+    height: 300px;
+}
