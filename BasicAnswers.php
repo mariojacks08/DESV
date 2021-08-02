@@ -4,72 +4,72 @@
 </head>
 <body>
 <h1>Resultados</h1>
-<form action="EstudianteIndex.php" method=''>
+<form action="./game/UnoVsAll/Dificultad.php" method=''>
 <?php
-    if(isset($_REQUEST['11']))
+    if(isset($_REQUEST['12']))
     { ?>
             <h4>Respuesta correcta</h4><br> 
             
             <?php
             }
             
-        elseif(($_REQUEST['c12']) or ($_REQUEST['c13']))
+        elseif(($_REQUEST['11']) or ($_REQUEST['13']))
             {?>
 
             <h4>Respuesta incorrecta</h4><br>
             <?php
             }
 
-    if(isset($_REQUEST['c21']))
+    if(isset($_REQUEST['21']))
     { ?>
             <h4>Respuesta correcta</h4><br> 
             
             <?php
             }
             
-        elseif(($_REQUEST['c22']) or ($_REQUEST['c23']))
+        elseif(($_REQUEST['22']) or ($_REQUEST['23']))
             {?>
 
             <h4>Respuesta incorrecta</h4><br>
             <?php
             }
 
-    if(isset($_REQUEST['c31']))
+    if(isset($_REQUEST['32']))
     { ?>
             <h4>Respuesta correcta</h4><br> 
             
             <?php
             }
             
-        elseif(($_REQUEST['c32']) or ($_REQUEST['c33']))
+        elseif(($_REQUEST['31']) or ($_REQUEST['33']))
             {?>
 
             <h4>Respuesta incorrecta</h4><br>
             <?php
             }
 
-    if(isset($_REQUEST['c41']))
+    if(isset($_REQUEST['41']))
     { ?>
             <h4>Respuesta correcta</h4><br> 
             
             <?php
             }
             
-        elseif(($_REQUEST['c42']) or ($_REQUEST['c43']))
+        elseif(($_REQUEST['42']) or ($_REQUEST['43']))
             {?>
 
             <h4>Respuesta incorrecta</h4><br>
             <?php
             }
 
-    if(isset($_REQUEST['c51']))
+    if(isset($_REQUEST['51']))
     { ?>
             <h4>Respuesta correcta</h4><br> 
             
             <?php
             }
             
-        elseif(($_REQUEST['c52']) or ($_REQUEST['c53']))
+        elseif(($_REQUEST['52']) or ($_REQUEST['53']))
             {?>
 
             <h4>Respuesta incorrecta</h4><br>
