@@ -8,11 +8,12 @@
 </head>
 <body>
 <h1>Nivel Básico</h1>
+<div  id="questions">
 <form action="BasicAnswers.php" method="post">
     <?php
-        function chargeOptions($options){
+        function chargeOptions($options,$question){
             foreach($options as $op)
-                echo '<input type="checkbox" name="op'.$op->getId().'">'.$op->getOption().'</label><br/>';
+                echo '<input type="checkbox" name="'.$question.$op->getId().'">'.$op->getOption().'</label><br/>';
         }
         $points = 0;
         require('game/Entidades/Question.php');
@@ -53,12 +54,13 @@
         $question = new Question(5,"Es un modelo que resulta muy útil para evaluar el alcance del producto, pero no su uso real. ",$answerList,1,8);
         array_push($questions,$question);  
         for($i=0;$i<5;$i++){
-            echo '<td>'.$questions[$i]->getQuestion().':</td><br/>';
-            echo chargeOptions($questions[$i]->getOptios());
+            echo '<td>'.$questions[$i]->getQuestion().'</td><br/>';
+            echo chargeOptions($questions[$i]->getOptios(),$questions[$i]->getId());
         }    
         
     ?>
 <button type="submit" name ='enviar'>Enviar</button>
+</div>
 </form>
 </body>
 </html>
