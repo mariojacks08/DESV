@@ -25,6 +25,11 @@ window.onload = function() {
     document.title = "Saliendo"
     location.href = "../Index.php"
   });
+  document.getElementById('creditos').addEventListener('click', function (e) {
+    document.title = "PBMC - Creditoss"
+    document.getElementById('frame').src = "../Creditos.html"
+  });
+  
   
 
 };
@@ -36,10 +41,12 @@ window.onload = function() {
 <nav class='container'>
   <div class='wrap'>
     <input type='checkbox' id='checking' style='display:none;'/>
-    <img class='blob' id="ranking" src="../IMG/ranking.svg" alt="ranking" height="50rem" width="50rem">
+    <img class='blob' id="ranking" src="../IMG/ranking.svg" alt="ranking" height="50rem" width="50rem"/>
     <img class='blob' id="game" src="../IMG/controller.svg" alt="controll de juego" height="50rem" width="50rem"/>
-    <img class='blob' id="help" src="../IMG/help.svg" alt="ayuda" height="50rem" width="50rem">
+    <img class='blob' id="help" src="../IMG/help.svg" alt="ayuda" height="50rem" width="50rem"/>
     <img class='blob' id="logoff" src="../IMG/exit-door.svg" alt="log off" height="50rem" width="50rem">
+    <img id="creditos" class="blob" src="../IMG/information.svg" alt="info creditos" height="50rem" width="50rem"/>
+    
     <label class='blob' for='checking' > <span class='bar'></span> <span class='bar'></span> <span class='bar'></span> </label>
   </div>
 </nav>

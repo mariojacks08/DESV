@@ -1,0 +1,91 @@
+
+
+
+.pie{
+    background-image: none;
+  
+}
+.titulofin{
+    
+    text-align: center;
+    font-size: 30px;
+    color:black;
+}
+.seccion{
+    margin-top: 3%;
+    width: 96%;
+}
+.alinear{
+    margin-left: 4%;
+}
+.alinear3{
+    margin-left: 6%;
+    margin-top: 2%;
+}
+.finalT{
+    color:black;
+    font-size: large;
+}
+.caja1{
+    background-color: transparent;
+    border-radius: 8px;
+    border-color:black;
+    padding: 2%;
+    padding-right: 60%;
+    color:black;
+}
+
+.caja{
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 1%;
+    border-color:black;
+    color: black;
+    
+}
+.centro {
+    width: 100%;
+    float: left;
+    width: 50%;
+    border-radius: 30px;
+    padding-left: 65px;
+   
+}
+.Ecomen{
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 30px;
+    color: black;
+    
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.caja2{
+    background-color: transparent;
+    border-radius: 8px;
+    border-color:black;
+    padding: 1%;
+    padding-right: 30%;
+    color:black;
+}
+.espaciado{
+   
+    width: 90%;
+   
+}
+
+.IG{
+    border-radius: 100%;
+}
+.SegundaParte{
+    background-color: white;
+}
+.Parte2
+{   width: 80%;
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 8%;
+    float: left;
+    text-align: center;
+    margin-bottom: 6%;
+}

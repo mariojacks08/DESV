@@ -6,7 +6,7 @@
 <h1>Resultados</h1>
 <form action="EstudianteIndex.php" method=''>
 <?php
-    if(isset($_REQUEST['c11']))
+    if(isset($_REQUEST['11']))
     { ?>
             <h4>Respuesta correcta</h4><br> 
             
