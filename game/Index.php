@@ -10,19 +10,20 @@
 
 window.onload = function() {
   document.getElementById('ranking').addEventListener('click', function (e) {
-    document.getElementById('frame').src = "../index.php";
-    document.title = "PBMC - Seleccion de nivel"
+    document.getElementById('frame').src = "../Ranking.php";
+    document.title = "PBMC - Ranking"
   });
   document.getElementById('game').addEventListener('click', function (e) {
-    document.getElementById('frame').src = "../JugarNiveles.php";
+    document.getElementById('frame').src = "./UnoVsAll/Dificultad.php";
     document.title = "PBMC - Seleccion de nivel"
   });
   document.getElementById('help').addEventListener('click', function (e) {
-    //document.getElementById('frame').src = "#";
+    document.getElementById('frame').src = "../Help.php";
     document.title = "PBMC - Ayuda"
   });
   document.getElementById('logoff').addEventListener('click', function (e) {
     document.title = "Saliendo"
+    location.href = "../Index.php"
   });
   
 
@@ -31,7 +32,7 @@ window.onload = function() {
 </head>
 <body>
 <header>
-  <img src="../IMG/DesarrolloVTítulo.gif" alt="logo juego" id="logojuego">
+  <a href="./"><img src="../IMG/DesarrolloVTítulo.gif" alt="logo juego" id="logojuego"></a>
 <nav class='container'>
   <div class='wrap'>
     <input type='checkbox' id='checking' style='display:none;'/>
@@ -52,6 +53,6 @@ window.onload = function() {
     </defs>
 </svg>
 </header>
-<iframe allowtransparency=true frameborder=0 sandbox="allow-same-origin allow-forms allow-scripts" scrolling=auto id="frame" src="../JugarNiveles.php" style="width:100%;height:100%"></iframe>
+<iframe allowtransparency=true frameborder=0 sandbox="allow-same-origin allow-forms allow-scripts" scrolling=auto id="frame" src="./UnoVsAll/Dificultad.php" style="width:100%;height:100%"></iframe>
 </body>
 </html>
